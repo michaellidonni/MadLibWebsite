@@ -7,7 +7,7 @@ body {
     color: white;
     position: relative;
   }
-
+/*Styling for box in the background*/
 .box {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
@@ -17,7 +17,7 @@ body {
     margin: 10rem;
 } 
 
-
+/*Styling for story*/
   #story {
     margin-left: 20%;
     margin-right: 20%;
@@ -25,11 +25,20 @@ body {
     font-weight: 400;
     font-style: normal;
   }
-
+/*Styling for title*/
   #title {
     text-align: center;
     margin-bottom: 3%;
     font-family: "cinzel", sans-serif;
     font-weight: 700;
     font-style: normal;
+  }
+
+  img {
+    width: 25%;
+    height:10%px;
+    margin-left:6%;
+    margin-top: 3%;
+    border: 3px solid white;
+    border-radius: 10px;
   }
