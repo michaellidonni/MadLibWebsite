@@ -3,9 +3,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #2e2e2e;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 100%);
     color: white;
+    position: relative;
   }
+
+.box {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 10rem;
+} 
+
 
   #story {
     margin-left: 20%;
